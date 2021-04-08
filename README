@@ -1,0 +1,6 @@
+Test pour mise en oeuvre de Jenkins.
+
+Objectifs :
+- Mini projet C dont l'exe ajoute dans le fichier passé en paramètre une nouvelle ligne avec la date et l'heure
+- Mise du projet sous Git
+- Déploiement dans un conteneur
