@@ -12,6 +12,7 @@ int main (int argc, char * argv[])
     time_t rawtime;
     struct tm * timeinfo;
 
+    /* Récupération de la date et de l'heure */
     time ( &rawtime );
     timeinfo = localtime ( &rawtime );
      
