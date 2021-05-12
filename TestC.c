@@ -16,6 +16,7 @@ int main (int argc, char * argv[])
     time ( &rawtime );
     timeinfo = localtime ( &rawtime );
      
+    /* Message d'aide à l'utilisation si le paramètre a été omis */
     if (argc == 0)
     {
         printf ("Usage: sample filename...\n");
