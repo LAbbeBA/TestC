@@ -33,6 +33,7 @@ int main (int argc, char * argv[])
     printf ("hello world\n");
     fprintf (inputFile, "Appending a new message in the file at %s", asctime(timeinfo));
 
+# Ajout commentaire
     fclose (inputFile);
         
     return 0;
